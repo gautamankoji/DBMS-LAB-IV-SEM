@@ -34,7 +34,7 @@ This repository contains the problems discussed in Database Management Systems L
 *Authored by <a target="_blank" href="https://github.com/gautamankoji">Gautam Ankoji</a>*
 
 <p align="center">
-  Copyright © 2024 <b><a target="_blank" href="https://github.com/SERVER-X-101">gautamankoji</a></b> | All rights reserved. <br/>
+  Copyright © 2024 <b><a target="_blank" href="https://github.com/gautamankoji">gautamankoji</a></b> | All rights reserved. <br/>
 </p>
 
 </div>
