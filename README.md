@@ -25,3 +25,16 @@ This repository contains the problems discussed in Database Management Systems L
 |  12   | **Exercise – 12** </br> _Cursors: Parameterized, FOR UPDATE & WHERE CURRENT:_ </br> • _[Develop programs using features parameters in a CURSOR, FOR UPDATE CURSOR,WHERE CURRENT of clause and CURSOR variables.](./Exercise_12_Cursors/Cursors.md)_                                                                                                                                                                                                                                        |              **Cursors**               |
 |  13   | **Exercise – 13** </br> _Triggers: BEFORE, AFTER, Row, Statement & INSTEAD OF:_ </br> • _[Develop Programs using BEFORE and AFTER Triggers, Row and Statement Triggers and INSTEAD OF Triggers.](./Exercise_13_Triggers/Triggers.md)_                                                                                                                                                                                                                                                      |              **Triggers**              |
 |  14   | **Exercise – 14** </br> _For a given set of relation tables perform the following:_ </br> (a). _[Creating Views](./Exercise_14_Views/A-Creating-Views.md)_ </br> (b). _[Dropping Views](./Exercise_14_Views/B-Dropping-Views.md)_ </br> (c). _[Selecting from a View](./Exercise_14_Views/C-Selecting-from-a-view.md)_                                                                                                                                                                     |               **Views**                |
+
+<div align="center">
+
+<!-- Line Break -->
+<a href="http://www.github.com/gautamankoji"><p align = 'center'> <img src= 'https://capsule-render.vercel.app/api?type=rect&color=333941&height=1.0' width="100%"/></p></a>
+
+*Authored by <a target="_blank" href="https://github.com/gautamankoji">Gautam Ankoji</a>*
+
+<p align="center">
+  Copyright © 2024 <b><a target="_blank" href="https://github.com/SERVER-X-101">gautamankoji</a></b> | All rights reserved. <br/>
+</p>
+
+</div>
