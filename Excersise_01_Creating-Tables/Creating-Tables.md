@@ -22,6 +22,7 @@ CREATE TABLE employees (
 
 <details>
 <summary> <code>SQL> DESC employees;</code></summary>
+</br>
 
 ```sql
 +-------------+---------------+------+-----+---------+-------+
@@ -45,7 +46,7 @@ ADD salary DECIMAL(10, 2) NOT NULL;
 ```
 
 <details>
-<summary>SQL> DESC employees;</summary>
+<summary> <code>SQL> DESC employees; </code></summary>
 </br>
 
 ```sql
@@ -79,7 +80,7 @@ INSERT INTO employees (employee_id, name, age, department, salary) VALUES
 ```
 
 <details open>
-<summary>SQL> SELECT * FROM employees;</summary>
+<summary> <code>SQL> SELECT * FROM employees; </code></summary>
 </br>
 
 ```sql
