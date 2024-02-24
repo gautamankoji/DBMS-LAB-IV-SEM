@@ -21,7 +21,7 @@ CREATE TABLE employees (
 ```
 
 <details>
-<summary> `SQL> DESC employees;`</summary>
+<summary> <code>SQL> DESC employees;</code></summary>
 </br>
 
 ```sql
