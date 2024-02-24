@@ -22,7 +22,6 @@ CREATE TABLE employees (
 
 <details>
 <summary> <code>SQL> DESC employees;</code></summary>
-</br>
 
 ```sql
 +-------------+---------------+------+-----+---------+-------+
