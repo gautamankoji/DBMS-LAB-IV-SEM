@@ -1,6 +1,8 @@
-To illustrate the creation, alteration, and dropping of tables, as well as inserting rows into a table with constraints, this SQL script demonstrates creating, altering, and dropping tables, as well as inserting rows into a table with constraints using the SELECT command.
+# Exercise 1:
 
-Let's assume we want to create a table named `employees` with the following columns:
+Creation, altering and dropping of tables and inserting rows into a table (use constraints while creating tables) examples using SELECT command.
+
+Create a table named `employees` with the following columns:
 
 1. `employee_id` (Primary Key)
 2. `name`
