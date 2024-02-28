@@ -1,4 +1,6 @@
-# Exercise 1:
+# Exercise 1
+
+## Creating Tables
 
 Creation, altering and dropping of tables and inserting rows into a table (use constraints while creating tables) examples using SELECT command.
 
