@@ -1,8 +1,3 @@
-# Exercise – 10
-
-## Program development using creation of stored functions, invoke functions in SQL Statements and write complex functions
-
-```sql
 -- Creating a hypothetical product table
 CREATE TABLE product (
     product_id NUMBER PRIMARY KEY,
@@ -40,12 +35,3 @@ WHERE product_id = 1;
 -- Example 2: Calculating total value of all products
 SELECT product_id, product_name, calculate_product_value(product_id) AS total_value
 FROM product;
-```
-
-Explanation:
-
-- **Stored Function Creation**: The function `calculate_product_value` is created to calculate the total value of a product in stock. It takes a `product_id` as input and returns the total value.
-- **Function Invocation**: The function is invoked in SQL statements:
-  - In Example 1, it calculates the total value of the product with ID 1.
-  - In Example 2, it calculates the total value of all products in the table.
-- **Complex Function**: Although this function is not very complex, it demonstrates the usage of SQL statements inside a PL/SQL function to perform calculations and return results.
