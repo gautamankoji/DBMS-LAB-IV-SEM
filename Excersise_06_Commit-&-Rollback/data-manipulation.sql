@@ -1,8 +1,3 @@
-# Exercise – 6
-
-## Insert data into student table and use COMMIT, ROLLBACK and SAVEPOINT in PL/SQL block.
-
-```sql
 -- Creating a hypothetical student table
 CREATE TABLE student (
     student_id NUMBER PRIMARY KEY,
@@ -53,17 +48,3 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('An error occurred: ' || SQLCODE || ' - ' || SQLERRM);
 END;
 /
-```
-
-In this PL/SQL block:
-
-- We create a hypothetical `student` table with columns `student_id`, `student_name`, and `marks`.
-- Inside the PL/SQL block:
-  - We use a savepoint (`savepoint_before_insert`) before inserting data.
-  - We insert data into the `student` table.
-  - We display a message confirming successful insertion.
-  - We commit the transaction to make the changes permanent.
-  - We then mistakenly update one of the records.
-  - We rollback to the savepoint to undo the update.
-  - We display the data after rollback.
-  - Finally, we commit the final changes.
