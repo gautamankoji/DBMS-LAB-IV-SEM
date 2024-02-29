@@ -1,8 +1,3 @@
-# Exercise – 12
-
-## Develop programs using features parameters in a CURSOR, FOR UPDATE CURSOR,WHERE CURRENT of clause and CURSOR variables
-
-```sql
 -- Creating a hypothetical employee table
 CREATE TABLE employees (
     emp_id NUMBER PRIMARY KEY,
@@ -65,13 +60,3 @@ BEGIN
     update_employee_salary(1, 55000); -- Update salary of employee with ID 1
 END;
 /
-```
-
-Explanation:
-
-- **Procedure `update_employee_salary`**: This procedure takes an employee ID (`p_emp_id`) and a new salary (`p_new_salary`) as parameters.
-- **Cursor Declaration with Parameter**: The cursor `emp_cursor` is declared with a parameter `emp_id_param`.
-- **Cursor FOR UPDATE**: The cursor is declared with `FOR UPDATE` clause to lock the rows for update.
-- **Cursor Variable**: `emp_rec` is a cursor variable declared using `%ROWTYPE`.
-- **WHERE CURRENT OF Clause**: The `UPDATE` statement uses `WHERE CURRENT OF` clause to update the current row pointed by the cursor.
-- **Error Handling**: It includes exception handling to catch any errors that may occur during the execution of the procedure.
