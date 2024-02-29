@@ -1,8 +1,3 @@
-# Exercise – 13
-
-## Develop Programs using BEFORE and AFTER Triggers, Row and Statement Triggers and INSTEAD OF Triggers
-
-```sql
 -- Creating a hypothetical table
 CREATE TABLE orders (
     order_id NUMBER PRIMARY KEY,
@@ -59,11 +54,3 @@ BEGIN
     WHERE order_id = :OLD.order_id;
 END;
 /
-```
-
-Explanation:
-
-- **BEFORE INSERT Trigger (`before_insert_order`)**: This trigger fires before an insert operation on the `orders` table. It populates the `order_id` column using a sequence.
-- **AFTER INSERT Trigger (`after_insert_order`)**: This trigger fires after an insert operation on the `orders` table. It updates the `total_amount` column to include a 10% tax.
-- **AFTER INSERT Trigger (`log_inserted_order`)**: This trigger fires after an insert operation on the `orders` table. It logs the inserted order details into a hypothetical `order_log` table.
-- **INSTEAD OF UPDATE Trigger (`instead_of_update_orders_with_tax`)**: This trigger is created for the `orders_with_tax` view. It allows updating the `total_amount_without_tax` column in the view, and it updates the corresponding `total_amount` in the `orders` table accordingly.
