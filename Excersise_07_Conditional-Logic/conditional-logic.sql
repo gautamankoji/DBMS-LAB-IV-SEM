@@ -1,8 +1,3 @@
-# Exercise – 7
-
-## Develop a program that includes the features NESTED IF, CASE and CASE expression. The program can be extended using the NULLIF and COALESCE functions.
-
-```sql
 DECLARE
     v_score NUMBER := 85;
     v_result VARCHAR2(100);
@@ -66,12 +61,3 @@ BEGIN
     END;
 END;
 /
-```
-
-Explanation:
-
-- **Nested IF:** The program uses nested IF statements to determine the result based on the score.
-- **CASE:** It uses the CASE statement to achieve the same result as nested IF.
-- **CASE Expression:** It demonstrates the use of CASE as an expression.
-- **NULLIF:** It compares two values and returns NULL if they are equal.
-- **COALESCE:** It returns the first non-null value in the list of arguments. In this case, it returns v_value2 as v_value1 is NULL.
