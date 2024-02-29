@@ -60,4 +60,3 @@ SELECT TRUNC(SYSDATE, 'MONTH') AS truncated_date FROM dual;
 
 -- 16. **Round Date to the Specified Unit**:
 SELECT ROUND(SYSDATE, 'MONTH') AS rounded_date FROM dual;
-

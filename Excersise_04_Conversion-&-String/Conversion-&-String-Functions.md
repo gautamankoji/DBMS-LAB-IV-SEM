@@ -107,3 +107,4 @@ SELECT TRUNC(SYSDATE, 'MONTH') AS truncated_date FROM dual;
 ```sql
 SELECT ROUND(SYSDATE, 'MONTH') AS rounded_date FROM dual;
 ```
+
