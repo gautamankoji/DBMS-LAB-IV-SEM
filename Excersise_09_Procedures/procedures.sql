@@ -1,8 +1,3 @@
-# Exercise – 9
-
-## Programs development using creation of procedures, passing parameters IN and OUT of PROCEDURES
-
-```sql
 -- Creating a hypothetical employee table
 CREATE TABLE employee (
     emp_id NUMBER PRIMARY KEY,
@@ -49,12 +44,3 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('New Salary: ' || v_new_salary);
 END;
 /
-```
-
-Explanation:
-
-- **Procedure Creation**: The procedure `update_salary` is created with three parameters: `p_emp_id` (IN), `p_new_salary` (IN), and `p_old_salary` (OUT).
-- **Parameter Passing**: The procedure takes an employee ID and a new salary as input (IN parameters) and returns the old salary of the employee (OUT parameter).
-- **Procedure Execution**: Inside the anonymous block, the procedure is called with appropriate values for `v_emp_id` and `v_new_salary`.
-- **Output**: After execution, it displays the old salary, new salary, and employee ID.
-- **Commit**: The transaction is committed inside the procedure to make the changes permanent.
