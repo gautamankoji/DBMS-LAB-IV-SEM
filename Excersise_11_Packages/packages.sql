@@ -1,8 +1,3 @@
-# Exercise – 11
-
-## Program development using creation of package specification, package bodies, private objects, package variables and cursors and calling stored packages
-
-```sql
 -- Creating a package specification
 CREATE OR REPLACE PACKAGE employee_package AS
     -- Public procedures and functions
@@ -51,14 +46,3 @@ BEGIN
     employee_package.get_employee_details(1); -- Calling the procedure with employee ID 1
 END;
 /
-```
-
-Explanation:
-
-- **Package Specification**: The package `employee_package` is created with a single public procedure `get_employee_details`.
-- **Package Body**: The package body contains the implementation of the public procedure and private objects.
-- **Private Cursor**: A private cursor `employee_cursor` is declared to fetch employee details.
-- **Private Variables**: Private variables `v_emp_id`, `v_emp_name`, and `v_emp_salary` are declared to store employee details fetched by the cursor.
-- **Public Procedure Implementation**: The `get_employee_details` procedure is implemented to fetch and display employee details.
-- **Error Handling**: Error handling is implemented to catch exceptions like `NO_DATA_FOUND` and any other exceptions.
-- **Calling the Stored Package Procedure**: The procedure `get_employee_details` is called with an employee ID to fetch and display details of a specific employee.
