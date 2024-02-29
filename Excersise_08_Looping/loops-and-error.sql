@@ -1,8 +1,3 @@
-# Exercise – 8
-
-## Program development using WHILE LOOPS, numeric FOR LOOPS, nested loops using ERROR Handling, BUILT –IN Exceptions, USE defined Exceptions, RAISE- APPLICATION ERROR.
-
-```sql
 DECLARE
     -- User-defined exception
     insufficient_funds EXCEPTION;
@@ -51,13 +46,3 @@ EXCEPTION
         RAISE; -- Reraise the exception
 END;
 /
-```
-
-Explanation:
-
-- **Numeric FOR Loop:** It iterates from 1 to 5 and prints each iteration.
-- **WHILE Loop:** It simulates a withdrawal from an account until the balance reaches 0.
-- **Nested Loops with Error Handling:** It contains nested FOR loops. If the product of `i` and `j` is 9, it raises a user-defined exception `insufficient_funds`. Error handling is done inside the nested loop, and when the exception is caught, it exits the inner loop.
-- **Error Handling:** Built-in exceptions like `ZERO_DIVIDE` are handled. If any other error occurs, it prints the error message and reraises the exception.
-- **User-defined Exception:** `insufficient_funds` is a user-defined exception raised when there's not enough balance to complete a transaction.
-- **RAISE_APPLICATION_ERROR:** In this example, `RAISE_APPLICATION_ERROR` is not explicitly used, but it's a common approach to raise custom application errors with specific error codes and messages.
